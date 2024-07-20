@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(33, 37, 41);
+    display: flex;  
+    align-items: center;  
+    height: 60px;
+    justify-content: space-between;
+}
+.navbar h4 a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+}
+.right-side{
+    display: flex;
+    margin-right: 120px;
+}
+.right-side h5 a {
+    color: grey;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+.right-side h5 a:focus{
+    color: white;
+}
+.right-side a:hover{
+    color: rgb(177, 216, 231);
+}
+.container{    
+    margin: 80px 120px;
+}
+.box{
+    display: flex;
+    background-color:rgb(222, 225, 230);
+    height:300px;
+    width:700px;    
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 80px;
+    color:grey;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.text{
+ margin-left: 70px;   
+}
+.text h1{
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    line-height: 25px;
+}
+.container .main .text button{
+    margin-top: 10px;
+    background-color: #0D6EFD;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 17px;
+    border-style: none;
+    padding: 10px;
+    color: white;
+}
+.middle{
+    background-color: #6C757D;
+    height: 90px;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.card {
+    border: 1px solid grey;
+    margin: 30px 40px;
+    border-radius: 7px;
+    width: 350px;
+    height: 230px;
+    
+}
+.card b {
+    font-size: 30px;
+    margin: 10px;
+    
+}
+
+.card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 10px;
+}
+.card-cont{
+    display: flex;
+}
+.btn {
+    bottom: 0px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 17px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 50px 10px;
+}
+.footer{
+    background-color: rgb(33, 37, 41);
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
